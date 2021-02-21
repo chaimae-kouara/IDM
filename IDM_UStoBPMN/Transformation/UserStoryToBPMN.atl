@@ -6,9 +6,9 @@ module UserStoryToBPMN;
 create OUT: BPMN from IN: Backlog;
 
 
-rule role2lane{
+rule Role2Lane{
 	from B: Backlog!Role
-	to U: BPMN!lane(
+	to U: BPMN!Lane(
 		name <- B.name
 	)
 }
@@ -26,9 +26,22 @@ rule Activity2Activity{
 
 
 
-rule Backlog2BPMN{
+rule Backlog2BPMNModel{
 	from B: Backlog!Backlog
 	to U: BPMN!BPMNModel(
-		name <- B.name
+		name <- B.name,
+		lanes <- B.userstories
 	)
 }
+
+
+
+rule UserStory2Associations{
+	from B: Backlog!UserStory
+	to U: BPMN!Lane(
+		activities <- B.activities,
+		activities <- B.roles
+	)
+}
+
+

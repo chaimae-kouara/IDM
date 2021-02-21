@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<BPMNModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="www.process.com" name="backlog2">
+  <lanes>
+    <activities name="activity1"/>
+    <activities xsi:type="Lane" name="role2"/>
+  </lanes>
+  <lanes>
+    <activities name="activity22"/>
+    <activities xsi:type="Lane" name="role22"/>
+  </lanes>
+</BPMNModel>

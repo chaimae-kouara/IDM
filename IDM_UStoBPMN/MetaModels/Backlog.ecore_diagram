@@ -37,6 +37,10 @@
   <children xmi:type="notation:Shape" xmi:id="_1-VUwHRiEeun_OpI2xlvZg" type="2001" fontName="Segoe UI">
     <children xmi:type="notation:DecorationNode" xmi:id="_1-VUwnRiEeun_OpI2xlvZg" type="5001"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="_1-VUw3RiEeun_OpI2xlvZg" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_s48QAHSCEeun_OpI2xlvZg" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Backlog.ecore#//UserStory/toto"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_s48QAXSCEeun_OpI2xlvZg"/>
+      </children>
       <styles xmi:type="notation:SortingStyle" xmi:id="_1-VUxHRiEeun_OpI2xlvZg"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_1-VUxXRiEeun_OpI2xlvZg"/>
     </children>

@@ -12,6 +12,7 @@
         containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="activities" lowerBound="1"
         eType="#//Activity" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="toto" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Backlog">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>

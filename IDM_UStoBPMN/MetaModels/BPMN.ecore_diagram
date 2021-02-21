@@ -25,7 +25,7 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_LLIIUnCiEeuvBJJ5UPmmJQ" type="5001"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="_LLIIU3CiEeuvBJJ5UPmmJQ" type="7001">
       <children xmi:type="notation:Node" xmi:id="_YvcMcHCjEeuvBJJ5UPmmJQ" type="3001">
-        <element xmi:type="ecore:EAttribute" href="BPMN.ecore#//lane/name"/>
+        <element xmi:type="ecore:EAttribute" href="BPMN.ecore#//Lane/name"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_YvcMcXCjEeuvBJJ5UPmmJQ"/>
       </children>
       <styles xmi:type="notation:SortingStyle" xmi:id="_LLIIVHCiEeuvBJJ5UPmmJQ"/>
@@ -39,7 +39,7 @@
       <styles xmi:type="notation:SortingStyle" xmi:id="_LLIIWnCiEeuvBJJ5UPmmJQ"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_LLIIW3CiEeuvBJJ5UPmmJQ"/>
     </children>
-    <element xmi:type="ecore:EClass" href="BPMN.ecore#//lane"/>
+    <element xmi:type="ecore:EClass" href="BPMN.ecore#//Lane"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LLIIUXCiEeuvBJJ5UPmmJQ" x="285" y="75" width="151" height="106"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_MRMYgHCiEeuvBJJ5UPmmJQ" type="2001" fontName="Segoe UI">
@@ -73,7 +73,7 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_6ts3JnCiEeuvBJJ5UPmmJQ" x="-5" y="40"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_6ts3IXCiEeuvBJJ5UPmmJQ" fontName="Segoe UI"/>
-    <element xmi:type="ecore:EReference" href="BPMN.ecore#//BPMNModel/pools"/>
+    <element xmi:type="ecore:EReference" href="BPMN.ecore#//BPMNModel/lanes"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6ts3InCiEeuvBJJ5UPmmJQ" points="[35, -4, -147, 0]$[176, -6, -6, -2]"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6tusUHCiEeuvBJJ5UPmmJQ" id="(0.125,0.42857142857142855)"/>
   </edges>
@@ -85,7 +85,7 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_AKBV5nCjEeuvBJJ5UPmmJQ" x="-42" y="14"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_AKBV4XCjEeuvBJJ5UPmmJQ" fontName="Segoe UI"/>
-    <element xmi:type="ecore:EReference" href="BPMN.ecore#//lane/activities"/>
+    <element xmi:type="ecore:EReference" href="BPMN.ecore#//Lane/activities"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AKBV4nCjEeuvBJJ5UPmmJQ" points="[24, 7, -219, 0]$[231, 10, -12, 3]"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AKCkAHCjEeuvBJJ5UPmmJQ" id="(0.17391304347826086,0.625)"/>
   </edges>

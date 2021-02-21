@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Backlog xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="www.backlog.com"
+    xsi:schemaLocation="www.backlog.com ../MetaModels/Backlog.ecore"
+    name="backlog3">
+  <userstories>
+    <roles name="role3"/>
+    <activities
+        name="activity3"/>
+    <activities
+        name="activity33"/>
+    <activities
+        name="activity333"/>
+  </userstories>
+  <userstories>
+    <roles name="role2"/>
+    <activities
+        name="activity2"/>
+    <activities
+        name="activity22"/>
+  </userstories>
+</Backlog>
