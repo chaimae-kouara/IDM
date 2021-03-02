@@ -6,15 +6,26 @@
     xsi:schemaLocation="www.backlog.com ../MetaModels/Backlog.ecore"
     name="backlog2">
   <userstories
-      toto="toto1">
-    <roles name="role2"/>
+      toto="">
+    <roles name="role1"/>
     <activities
         name="activity1"/>
   </userstories>
   <userstories
-      toto="toto2">
-    <roles name="role22"/>
+      toto="">
+    <roles name="role2"/>
     <activities
-        name="activity22"/>
+        name="activity2"/>
+  </userstories>
+  <userstories
+      toto="">
+    <roles name="role3"/>
+    <activities
+        name="activity3"/>
+  </userstories>
+  <userstories>
+    <roles name="role4"/>
+    <activities
+        name="activity4"/>
   </userstories>
 </Backlog>

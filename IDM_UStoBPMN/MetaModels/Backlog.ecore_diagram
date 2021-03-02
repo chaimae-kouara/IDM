@@ -32,7 +32,7 @@
       <styles xmi:type="notation:FilteringStyle" xmi:id="_1-UGrnRiEeun_OpI2xlvZg"/>
     </children>
     <element xmi:type="ecore:EClass" href="Backlog.ecore#//Role"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1-UGpHRiEeun_OpI2xlvZg" x="780" y="390"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1-UGpHRiEeun_OpI2xlvZg" x="735" y="390"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_1-VUwHRiEeun_OpI2xlvZg" type="2001" fontName="Segoe UI">
     <children xmi:type="notation:DecorationNode" xmi:id="_1-VUwnRiEeun_OpI2xlvZg" type="5001"/>

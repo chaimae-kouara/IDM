@@ -2,10 +2,18 @@
 <BPMNModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="www.process.com" name="backlog2">
   <lanes>
     <activities name="activity1"/>
+    <activities xsi:type="Lane" name="role1"/>
+  </lanes>
+  <lanes>
+    <activities name="activity2"/>
     <activities xsi:type="Lane" name="role2"/>
   </lanes>
   <lanes>
-    <activities name="activity22"/>
-    <activities xsi:type="Lane" name="role22"/>
+    <activities name="activity3"/>
+    <activities xsi:type="Lane" name="role3"/>
+  </lanes>
+  <lanes>
+    <activities name="activity4"/>
+    <activities xsi:type="Lane" name="role4"/>
   </lanes>
 </BPMNModel>
